@@ -1,5 +1,16 @@
 # 👷 Modules Wrangler template
 
+#### Requirements
+
+Register a free CloudFlare account:  
+https://dash.cloudflare.com/sign-up
+
+Install the CloudFlare CLI:  
+npm i @cloudflare/wrangler -g
+
+https://developers.cloudflare.com/workers/cli-wrangler/install-update
+
+
 #### Project Use
 
 Generate with:
@@ -18,8 +29,7 @@ wrangler login
 wrangler publish
 ```
 
-Use the published NodeJS API running as a CloudFlare worker:
-
+Use the published NodeJS API running as a CloudFlare worker:  
 https://e9.endeavour9.workers.dev/
 
 
