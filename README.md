@@ -18,6 +18,9 @@ wrangler login
 wrangler publish
 ```
 
+Use the published NodeJS API running as a CloudFlare worker:
+
+https://e9.endeavour9.workers.dev/
 
 
 ## NOTE: You must be using wrangler 1.16 or newer to use this template
