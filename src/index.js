@@ -11,5 +11,8 @@ exports.handlers = {
 }
 
 async function handleRequest(request, env) {
-  return new Response(JSON.stringify({hi: slug}));
+  return new Response(JSON.stringify({
+    hi: slug,
+    some: 'pig'
+  }));
 }
