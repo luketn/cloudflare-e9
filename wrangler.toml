@@ -1,0 +1,17 @@
+name = "e9"
+# type = "javascript" is required to use the `[build]` section
+type = "javascript"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2022-01-23"
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "modules"
+main = "./shim.mjs"
+[[build.upload.rules]]
+type = "Text"
+globs = ["**/*.txt"]
